@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <fieldset id="grid">
+      <div class="grid-container">
+        <div class="grid-item" id="0" onclick="game(id)"></div>
+        <div class="grid-item" id="1" onclick="game(id)"></div>
+        <div class="grid-item" id="2" onclick="game(id)"></div>  
+        <div class="grid-item" id="3" onclick="game(id)"></div>
+        <div class="grid-item" id="4" onclick="game(id)"></div>
+        <div class="grid-item" id="5" onclick="game(id)"></div>  
+        <div class="grid-item" id="6" onclick="game(id)"></div>
+        <div class="grid-item" id="7" onclick="game(id)"></div>
+        <div class="grid-item" id="8" onclick="game(id)"></div>  
+      </div>
+    </fieldset>
+    <div id="endOfMatch">
+    </div>
+  </body>
+</html>
